@@ -10,7 +10,7 @@ RUN apt-get update && \
 ADD start.sh .
 
 RUN chmod +x start.sh && \
-    mkdir /tmp/run
+    mkdir -p /tmp/run/out
 
 WORKDIR /tmp/run
 

@@ -20,4 +20,5 @@ docker run -v $PWD:/tmp/run ombu/daisydiff https://documentA https://documentB
 docker run -v $PWD:/tmp/run ombu/daisydiff local/documentA.html local/documentB.html
 ```
 
-Running the above will write the output to `daisydiff.htm`
+Running the above will write the output file and the supporting CSS, JS and
+images to `out/daisydiff.htm`.
